@@ -1,0 +1,7 @@
+[project]
+name = "arXiv2Discord"
+version = "1.0.0"
+description = "GitHub ActionsによりarXiv論文情報を自動収集し，AI要約・Discord通知を行います"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
