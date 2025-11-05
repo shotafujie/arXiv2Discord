@@ -31,7 +31,7 @@ arXiv APIで取得した論文タイトル・要約を，GitHub Actionsによっ
   - `max_results`: 最大取得件数
   - `recent_hours`: 検索対象期間（時間）
 ### 使い方
-1. 環境変数を設定（API キー，Discord トークン等）
+1. 環境変数，ワークフローのスケジューリングを設定（API キー，Discord トークン等）
 2. `arxiv_settings.yaml`にキーワードやカテゴリを設定
 3. `python main.py`を実行
 4. 新規論文が自動的にDiscordに投稿される
