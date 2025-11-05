@@ -1,0 +1,8 @@
+# ご自身の研究テーマや興味領域に合わせて keywords / category を編集してください
+keywords:
+  - speech
+  - AI
+
+category: "cat:cs.AI OR cat:cs.HC"
+max_results: 6
+recent_hours: 168  # 直近何時間の論文を対象とするか（例: 24時間=1日, 168時間=7日）
