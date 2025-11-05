@@ -1,5 +1,5 @@
 # arXiv2Discord
-arXiv APIで取得した論文タイトル・アブストを，GitHub ActionsによってPerplexity AIで再要約し，Discordアナウンスチャンネルに自動投稿＆公開します．
+arXiv APIで取得した論文タイトル・アブストを，GitHub ActionsによってPerplexity AIで要約し，Discordアナウンスチャンネルに自動投稿＆公開します．
 
 ## 📚 ドキュメント
 - [README.md](./README.md) - プロジェクトの概要と基本的な使い方
