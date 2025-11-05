@@ -1,8 +1,8 @@
 name: arXiv Discord Announcer
-on:
-  workflow_dispatch:      # 手動実行可
-  schedule:
-    - cron: '10 22,8 * * *'   # JST 7:10,17:10に自動実行（UTC基準/時差考慮済）
+#on:
+#  workflow_dispatch:      # 手動実行可
+#  schedule:
+#    - cron: '10 22,8 * * *'   # JST 7:10,17:10に自動実行（UTC基準/時差考慮済）
 permissions:
   contents: write
 jobs:
