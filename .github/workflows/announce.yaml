@@ -15,7 +15,7 @@ jobs:
       DISCORD_CHANNEL_ID: ${{ secrets.DISCORD_CHANNEL_ID }}
       POSTED_IDS_FILE: ${{ secrets.POSTED_IDS_FILE }}
     steps:
-      - uses: actions/checkout@v3  # リポジトリのコードをチェックアウト
+      - uses: actions/checkout@v5  # リポジトリのコードをチェックアウト
       - name: Set up Python
         uses: actions/setup-python@v4  # Python環境をセットアップ
         with:
