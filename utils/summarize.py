@@ -13,6 +13,10 @@ def build_perplexity_prompt(title, abstract, keywords, authors, link):
     logging.info("build_perplexity_prompt")
     tags = " ".join([f"#{k.replace(' ', '')}" for k in keywords.split(",") if k])
     return (
+        f"【論文タイトル】\n{title}\n\n"
+        f"【著者】\n{authors}\n\n"
+        f"【arXivリンク】\n{link}\n\n"
+        f"【アブストラクト】\n{abstract}\n\n"
         f"指定されたarXiv論文について、下記の見出し構成で日本語要約＋考察コメントを書いてください。要約には小見出し名は不要です。"
         f"自己肯定感高め＆親しみある言葉づかい、絵文字を交えてまとめてください。\n\n"
         f"- どんなもの？:\n"
