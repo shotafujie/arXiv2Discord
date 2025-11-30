@@ -74,3 +74,24 @@ post_and_publish_to_discord]
 save_posted_ids]
         LOG[ログ出力]
     end
+```
+
+---
+
+## Support
+
+このリポジトリが役に立った/気に入っていただけたら，以下のいずれかの形でサポートしていただけると嬉しいです🙌
+
+- GitHubでのStar⭐
+- SNS等でのシェア・紹介
+- Buy Me a Coffeeからのご支援
+
+If you find this project useful, you can support it in any of the following ways 🙌
+
+- Give the repository a ⭐️ on GitHub
+- Share it on social media or with your friends
+- Support me on Buy Me a Coffee
+
+<a href="https://buymeacoffee.com/fujiemon" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee">
+</a>
